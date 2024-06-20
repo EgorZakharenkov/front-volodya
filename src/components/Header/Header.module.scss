@@ -1,0 +1,23 @@
+  .container {
+    display: flex;
+  }
+  .links {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    a {
+      color: #f1f1f1;
+      text-decoration: none;
+      padding: 10px 15px;
+      transition: .3s;
+      border-radius: 10px;
+
+      &:hover {
+        background: #0d0d8c;
+      }
+    }
+    .active {
+      background: #0d0d8c;
+    }
+  }
